@@ -7,6 +7,10 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "icon_theme": "Material Icon Theme",
+  "git_panel": {
+    "tree_view": true
+  },
   "terminal": {
     "font_family": "JetBrainsMono Nerd Font"
   },
@@ -88,11 +92,6 @@
   },
   "cursor_blink": false,
   "relative_line_numbers": "wrapped",
-  "icon_theme": {
-    "mode": "system",
-    "light": "Material Icon Theme",
-    "dark": "Material Icon Theme"
-  },
   "telemetry": {
     "diagnostics": false,
     "metrics": false
