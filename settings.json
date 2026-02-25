@@ -7,6 +7,10 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "terminal": {
+    "font_family": "JetBrainsMono Nerd Font"
+  },
+  "buffer_font_family": "Intel One Mono",
   "enable_language_server": true,
   "agent": {
     "model_parameters": []
