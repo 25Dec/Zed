@@ -122,9 +122,8 @@
   "ui_font_size": 16.0,
   "buffer_font_size": 16.0,
   "theme": {
-    "mode": "dark",
+    "mode": "light",
     "light": "Ayu Light",
     "dark": "Ayu Mirage",
   },
 }
-
