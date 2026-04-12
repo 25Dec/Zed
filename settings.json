@@ -7,11 +7,12 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "hard_tabs": true,
   "prettier": {
   },
   "outline_panel": {
     "indent_guides": {
-      "show": "never"
+      "show": "always"
     },
     "indent_size": 15.0,
     "file_icons": true,
@@ -49,6 +50,8 @@
   "use_on_type_format": false,
   "format_on_save": "off",
   "indent_guides": {
+    "background_coloring": "disabled",
+    "coloring": "indent_aware"
   },
   "minimap": {
   },
@@ -84,7 +87,7 @@
   },
   "project_panel": {
     "indent_guides": {
-      "show": "never"
+      "show": "always"
     },
     "sticky_scroll": false,
     "bold_folder_labels": false,
@@ -122,7 +125,7 @@
   "ui_font_size": 16.0,
   "buffer_font_size": 16.0,
   "theme": {
-    "mode": "light",
+    "mode": "dark",
     "light": "Ayu Light",
     "dark": "Ayu Mirage",
   },
