@@ -7,14 +7,23 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "hard_tabs": true,
+  "title_bar": {
+    "show_menus": false,
+    "show_branch_icon": false
+  },
+  "vim": {
+    "toggle_relative_line_numbers": true
+  },
+  "inline_code_actions": false,
+  "current_line_highlight": "all",
+  "cursor_blink": false,
+  "text_rendering_mode": "platform_default",
   "prettier": {
   },
   "outline_panel": {
     "indent_guides": {
       "show": "always"
     },
-    "indent_size": 15.0,
     "file_icons": true,
     "default_width": 300.0,
     "git_status": true
@@ -23,11 +32,14 @@
   "remove_trailing_whitespace_on_save": false,
   "icon_theme": "Material Icon Theme",
   "git_panel": {
+    "show_count_badge": true,
+    "file_icons": true,
+    "tree_view": true,
     "sort_by_path": false,
-    "status_style": "label_color",
-    "tree_view": true
+    "status_style": "label_color"
   },
   "terminal": {
+    "button": false,
     "font_family": "JetBrainsMono Nerd Font"
   },
   "buffer_font_family": "Intel One Mono",
@@ -38,10 +50,11 @@
   "notification_panel": {
     "button": false
   },
-  "bottom_dock_layout": "contained",
   "preview_tabs": {
+    
   },
   "search": {
+    "button": false,
     "center_on_match": true
   },
   "inlay_hints": {
@@ -50,21 +63,22 @@
   "use_on_type_format": false,
   "format_on_save": "off",
   "indent_guides": {
-    "background_coloring": "disabled",
-    "coloring": "indent_aware"
+    "coloring": "indent_aware",
+    "background_coloring": "disabled"
   },
   "minimap": {
+    
   },
   "scrollbar": {
     "show": "auto",
     "axes": {
-      "horizontal": false,
-      "vertical": false
-    },
-    "cursors": false
+      "vertical": false,
+      "horizontal": false
+    }
   },
-  "inline_code_actions": false,
   "toolbar": {
+    "code_actions": false,
+    "agent_review": true,
     "selections_menu": true,
     "quick_actions": false,
     "breadcrumbs": false
@@ -74,6 +88,7 @@
   },
   "disable_ai": true,
   "tab_bar": {
+    "show": true,
     "show_pinned_tabs_in_separate_row": true,
     "show_tab_bar_buttons": true,
     "show_nav_history_buttons": false
@@ -86,13 +101,13 @@
     "button": false
   },
   "project_panel": {
+    "hide_root": false,
+    "hide_hidden": false,
+    "entry_spacing": "comfortable",
     "indent_guides": {
       "show": "always"
     },
-    "sticky_scroll": false,
-    "bold_folder_labels": false,
-    "indent_size": 15.0,
-    "entry_spacing": "standard",
+    "bold_folder_labels": true,
     "git_status": true,
     "scrollbar": {
       "show": "auto"
@@ -101,6 +116,7 @@
     "button": false
   },
   "status_bar": {
+    "show_active_file": false,
     "active_language_button": false,
     "cursor_position_button": false
   },
@@ -114,8 +130,6 @@
   "sticky_scroll": {
     "enabled": true
   },
-  "cursor_blink": false,
-  "relative_line_numbers": "wrapped",
   "telemetry": {
     "diagnostics": false,
     "metrics": false
@@ -127,6 +141,6 @@
   "theme": {
     "mode": "dark",
     "light": "Ayu Light",
-    "dark": "Ayu Mirage",
+    "dark": "Gruvbox Dark",
   },
 }
