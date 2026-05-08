@@ -7,6 +7,20 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "buffer_font_features": {
+      "calt": true,
+      "liga": true
+  },
+  "mouse_wheel_zoom": true,
+  "languages": {
+    "HTML": {
+      "always_treat_brackets_as_autoclosed": false,
+      "indent_guides": {
+        "coloring": "fixed"
+      }
+    }
+  },
   "cli_default_open_behavior": "existing_window",
   "title_bar": {
     "show_menus": false,
@@ -44,7 +58,6 @@
     "button": false,
     "font_family": "JetBrainsMono Nerd Font"
   },
-  "buffer_font_family": "Intel One Mono",
   "enable_language_server": true,
   "agent": {
     "dock": "right",
@@ -139,7 +152,6 @@
   "vim_mode": true,
   "base_keymap": "VSCode",
   "ui_font_size": 16.0,
-  "buffer_font_size": 16.0,
   "theme": {
     "mode": "dark",
     "light": "Ayu Light",
