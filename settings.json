@@ -7,6 +7,23 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "lsp": {
+    "vtsls": {
+      "settings": {
+        "typescript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        },
+        "javascript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        }
+      },
+      "enable_lsp_tasks": true
+    }
+  },
   "buffer_font_family": "JetBrainsMono Nerd Font",
   "buffer_font_features": {
       "calt": true,
@@ -15,6 +32,9 @@
   "mouse_wheel_zoom": true,
   "languages": {
     "HTML": {
+      "inlay_hints": {
+        "enabled": false
+      },
       "always_treat_brackets_as_autoclosed": false,
       "indent_guides": {
         "coloring": "fixed"
@@ -139,7 +159,7 @@
     "inline": {
       "enabled": true
     },
-    "button": false
+    "button": true
   },
   "colorize_brackets": true,
   "sticky_scroll": {
