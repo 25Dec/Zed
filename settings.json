@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "completion_menu_scrollbar": "auto",
   "lsp": {
     "vtsls": {
       "settings": {
@@ -71,7 +72,6 @@
     "show_count_badge": true,
     "file_icons": true,
     "tree_view": true,
-    "sort_by_path": false,
     "status_style": "label_color"
   },
   "terminal": {
